@@ -128,7 +128,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8147039054086729461, guid: aa73a58932483e1479ac57c23d42175b, type: 3}
   m_PrefabInstance: {fileID: 1368514969}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1212857827
+--- !u!114 &1212857833
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,13 +137,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1212857826}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11b8cf5fa4bf67b4a8a34b231285cd68, type: 3}
+  m_Script: {fileID: 11500000, guid: 14096f8ab08b67a4a8375594cc121947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xValue: 1
-  yValue: 2
-  zValue: 3
-  speed: 1
+  life: 100
 --- !u!1001 &1368514969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -199,6 +196,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8147039054086729458, guid: aa73a58932483e1479ac57c23d42175b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03e08ce10618af143ab782d42392365d, type: 2}
     - target: {fileID: 8147039054086729461, guid: aa73a58932483e1479ac57c23d42175b, type: 3}
       propertyPath: m_Name
       value: Char
